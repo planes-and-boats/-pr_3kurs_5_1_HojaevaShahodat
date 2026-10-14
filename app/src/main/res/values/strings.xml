@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="hint_enter_city">Введите название города</string>
+    <string name="btn_get_weather">Узнать погоду</string>
+    <string name="tv_city_default">Город: —</string>
+    <string name="tv_temp_default">Температура: —</string>
+    <string name="tv_pressure_default">Давление: —</string>
+    <string name="tv_wind_default">Скорость ветра: —</string>
+
+    <string name="weather_city">Город: %1$s</string>
+    <string name="weather_temp">Температура: %1$s °C</string>
+    <string name="weather_pressure">Давление: %1$s гПа</string>
+    <string name="weather_wind">Скорость ветра: %1$s м/с</string>
+
+    <string name="error_empty_field">Пожалуйста, введите название города</string>
+    <string name="error_parse_json">Ошибка обработки данных. Проверьте структуру классов</string>
+    <string name="error_network_or_key">Город не найден, выключен интернет или не активирован API-ключ</string>
+
+</resources>
